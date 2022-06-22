@@ -9,7 +9,7 @@ ENV TURN_PORT_START 10000
 ENV TURN_PORT_END 20000
 ENV TURN_SECRET RlkA8udX4fSpqJsw8sWCTSkBxh5RvnA6
 ENV TURN_SERVER_NAME coturn
-ENV TURN_REALM turn-aunto.appxify.com
+ENV TURN_REALM turn-consult.praavahealth.com
 
 ADD start_coturn.sh start_coturn.sh
 ADD gen_creds.sh gen_creds.sh
